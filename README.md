@@ -1,16 +1,11 @@
-# clima
+# Clima Flutter Application
 
-A Weather Application
+The Weather Application which returns the live Weather data of the current location of the device as well as the weather for any city you can think of!
+This application implements asynchronous programming in Dart, which performs on **Asynchronous Tasks**, using async and await, and using **Future** data type of Dart, taking care of time consuming tasks such as getting device location and networking to get data from the internet.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This application revolves around:
+  - Fetching and parsing of **JSON Data**
+  - Using **REST API Services** from https://api.openweathermap.org, which returns the live weather data according to the query.
+  - Networking with **Dart HTTP package**
+  - Performs **Asynchronous tasks**, using **async** and **await**
+  
